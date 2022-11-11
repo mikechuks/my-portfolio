@@ -1,0 +1,147 @@
+.containerHome{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -0px;
+    z-index: -1;
+    background-color: beige;
+    width: 100%;
+}
+.imageText{
+    display: none;
+}
+.containerLeft{
+    background-color: #4F81BD;
+    width: 40%;
+}
+.personalInfo{
+    margin: 350px 20px 10px 20px;
+}
+.personal{
+    color: #ffffff;
+}
+.containerRanks{
+    margin: 10px 20px 10px 20px;
+}
+.langRanks{
+    background-color: #ffffff;
+    width: 90%;
+    height: 30px;
+    border: 5px solid #385D8A;
+}
+.langRank{
+    background-color: #254061;
+    width: 95%;
+    height: 20px;
+    transition: width 5s;
+}
+.containerRight{
+    width: 60%;
+}
+.experience{
+    margin: 350px 0px 10px 20px; 
+}
+.experienceInfo{
+    margin: 0vh 0vw 0vh 20vw;
+    font-size: calc(1rem + 1vw);
+}
+.experienceText{
+    margin: 0vh 0vw 0vh 30vw;
+    font-size: calc(0.3rem + 1vw);
+}
+h1{
+    text-decoration: underline;
+    font-size:  calc(1.5rem + 1vw);
+}
+h2{
+    font-weight: normal;
+    font-size:  calc(1rem + 1vw);
+}
+h3{
+    font-weight: normal;
+    font-size:  calc(0.5rem + 1vw);
+}
+@media (max-width:944px) {
+    .containerHome{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: -0px;
+        z-index: -1;
+        background-color:darkslategrey;
+        width: 100%;
+          color: #ffffff;
+    }
+    .imageText{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .michaelContainer{
+        background-color:darkslategrey;
+        border-radius: 5px;
+    }
+    .containerLeft{
+        display: flex;
+        width: 100%;
+        background-color:#2c4058;
+    }
+    .langvolumns{
+        background-color: #ffffff;
+        width: 45vw;
+        height: 30px;
+        border: 5px solid #385D8A;
+    }
+    .langvolumn{
+        background-color: #254061;
+        width: 95%;
+        height: 20px;
+        transition: width 5s;
+    }
+    .containerRight{
+        width: 100%;
+    }
+    .experience{
+        margin: 40px 0px 10px 20px; 
+    }
+    .personalInfo{
+        margin: 100px 10px 10px 20px;
+    }
+
+}
+@media (max-width:536px){
+    .containerLeft{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color:#2c4058;
+    }
+    .langvolumns{
+        background-color: #ffffff;
+        width: 90vw;
+        height: 30px;
+        border: 5px solid #385D8A;
+    }
+    .langvolumn{
+        background-color: #254061;
+        width: 95%;
+        height: 20px;
+        transition: width 5s;
+    }
+    @media (max-width:428px) {
+        .imageText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .imgContainer{
+        margin: auto;
+        }
+        .michaelContainer{
+        margin: 0px 0px 0px 20px;
+        }
+    }
+}
